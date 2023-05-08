@@ -49,7 +49,7 @@ toolkit = SQLDatabaseToolkit(llm=OpenAI(temperature=0), db=db)
 #     verbose=True
 # )
 
-st.title('Genflow SQL Generator')
+st.title('Genflow SQL')
 
 sql_agent = create_sql_agent(
     llm=OpenAI(temperature=0),
