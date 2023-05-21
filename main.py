@@ -174,7 +174,7 @@ db_llm = ChatOpenAI(model_name="gpt-3.5-turbo", temperature=0.7, verbose=True)
 # result = chain.run("Identify why customers switched from using one software to another.")
 # print("RESULT : ", result)
 
-st.title('Genflow Snoflake')
+st.title('Genflow Snowflake')
 
 def dbExec(user_query:str):
     #user_query = "Get product reviews along with product name and vendor name"
